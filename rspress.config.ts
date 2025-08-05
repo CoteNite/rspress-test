@@ -3,7 +3,7 @@ import { defineConfig } from 'rspress/config';
 
 export default defineConfig({
   base: '/rspress-test/',
-  rootDir: 'docs',
+  rootDir: path.join(__dirname, 'docs'),
   title: 'My Site',
   icon: '/rspress-icon.png',
   logo: {
